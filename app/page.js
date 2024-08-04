@@ -67,6 +67,8 @@ export default function Home() {
   const handleClose = () => setOpen(false)
   
   return (
+  <>
+    <title>Eddie Lu Inventory Management App</title>
   <Box 
   width = "100vw" 
   height = "100vh" 
@@ -176,5 +178,6 @@ export default function Home() {
     </Stack>
   </Box>
   </Box>
+  </>
   )
 }
